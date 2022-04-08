@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.scss';
-import { data } from '../materials';
-import Materials from '../components/Materials';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.scss";
+import { data } from "../materials";
+import Materials from "../components/Materials";
 
 export const getStaticProps = async () => {
   return {
@@ -17,8 +17,8 @@ export default function Home({ materials }) {
     <div className={styles.container}>
       <Head>
         <title>Anti Blackness 101</title>
-        <meta name='description' content='Anti Blackness 101' />
-        <link rel='icon' href='/favicon.ico' />
+        <meta name="description" content="Anti Blackness 101" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -41,15 +41,17 @@ export default function Home({ materials }) {
             prejudice and discrmination.
           </p>
           <p>
-            I hope to continue my journey of unlearning anti-blackness by
-            creating resources to help educate people and to help them
+            I plan to be more active in unlearning my anti-blackness by focusing
+            on my own learning, and to seek out ways to make learning resources
+            more available/accessible.
           </p>
+          .
         </div>
       </main>
 
       <footer className={styles.footer}>
-        This site was made as a class project for{' '}
-        <a href='https://www.peoplematter.one/'>People Matter</a>
+        This site was made as a class project for{" "}
+        <a href="https://www.peoplematter.one/">People Matter</a>
       </footer>
     </div>
   );

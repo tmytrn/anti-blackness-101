@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.scss";
-import { data } from "../materials";
-import Materials from "../components/Materials";
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.scss';
+import { data } from '../materials';
+import Materials from '../components/Materials';
 
 export const getStaticProps = async () => {
   return {
@@ -17,8 +17,8 @@ export default function Home({ materials }) {
     <div className={styles.container}>
       <Head>
         <title>Anti Blackness 101</title>
-        <meta name="description" content="Anti Blackness 101" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name='description' content='Anti Blackness 101' />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className={styles.main}>
@@ -35,10 +35,10 @@ export default function Home({ materials }) {
             majorities.
           </p>
           <p>
-            We can't reach a post-racial society by ignoring the color of
-            people's skin. We have to talk about it, acknowledge the history,
-            and find ways to undo the structures built on racial prejudice and
-            discrmination.
+            We can&apos;t reach a post-racial society by ignoring the color of
+            people&apos;s skin. We have to talk about it, acknowledge the
+            history, and find ways to undo the structures built on racial
+            prejudice and discrmination.
           </p>
           <p>
             I hope to continue my journey of unlearning anti-blackness by
@@ -48,8 +48,8 @@ export default function Home({ materials }) {
       </main>
 
       <footer className={styles.footer}>
-        This site was made as a class project for{" "}
-        <a href="https://www.peoplematter.one/">People Matter</a>
+        This site was made as a class project for{' '}
+        <a href='https://www.peoplematter.one/'>People Matter</a>
       </footer>
     </div>
   );

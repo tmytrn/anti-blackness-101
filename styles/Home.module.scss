@@ -87,6 +87,7 @@
     left: 1rem;
     right: 1rem;
     top: 2rem;
+    bottom: 2rem;
   }
   @extend .body_copy;
   text-transform: uppercase;
@@ -102,6 +103,7 @@
       left: 64px;
       right: 64px;
       top: 64px;
+      bottom: 64px;
     }
   }
 }

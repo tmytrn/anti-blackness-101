@@ -50,7 +50,7 @@ export default function Home({ materials }) {
 
       <footer className={styles.footer}>
         This site was made as a class project for{" "}
-        <a href="https://www.peoplematter.one/">People Matter</a>
+        <a href="https://www.peoplematter.one/"> People Matter</a>
       </footer>
     </div>
   );

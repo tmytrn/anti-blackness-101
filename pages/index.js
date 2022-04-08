@@ -45,7 +45,6 @@ export default function Home({ materials }) {
             on my own learning, and to seek out ways to make learning resources
             more available/accessible.
           </p>
-          .
         </div>
       </main>
 

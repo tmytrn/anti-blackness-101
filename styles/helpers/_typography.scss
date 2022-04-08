@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Eurostile";
+  src: url("/fonts/EurostileExt-Black.woff2") format("woff2"),
+    url("/fonts/EurostileExt-Black.woff") format("woff");
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eurostile";
+  src: url("/fonts/EurostileExt-Med.woff2") format("woff2"),
+    url("/fonts/EurostileExt-Med.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+$eurostile: "Eurostile";
+
+.heading_h1 {
+  font-family: $eurostile;
+  font-weight: 900;
+  font-size: 32px;
+  text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    font-size: 64px;
+  }
+}
+.heading_h2 {
+  font-family: $eurostile;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+  }
+}
+.heading_h3 {
+  font-family: $eurostile;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #161616;
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+  }
+}
+.body_copy {
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}

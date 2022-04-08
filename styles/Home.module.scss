@@ -1,0 +1,106 @@
+@import "./helpers/typography";
+@import "./helpers/colors";
+
+.main {
+  margin: {
+    left: 1rem;
+    right: 1rem;
+    top: 2rem;
+  }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  @media screen and (min-width: 1200px) {
+    margin: {
+      left: 64px;
+      right: 64px;
+      top: 64px;
+    }
+  }
+}
+
+.title {
+  @extend .heading_h1;
+  margin-bottom: 64px;
+}
+.heading_h2 {
+  margin-bottom: 2rem;
+}
+
+.week_section {
+  padding-bottom: 3rem;
+  width: 100%;
+  .week_header {
+    @extend .heading_h3;
+    margin-bottom: 0;
+  }
+  .material {
+    display: flex;
+    justify-content: space-between;
+    .material_name {
+      @extend .body_copy;
+      line-height: 18px;
+      margin: 1rem 0;
+      padding-right: 1rem;
+    }
+    .material_type {
+      font-size: 10px;
+      padding-left: 4px;
+      margin: auto 0;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: auto;
+    .material {
+      justify-content: flex-start;
+      align-items: center;
+      .material_name {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.reflection {
+  width: 90%;
+  p {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-transform: none;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 60%;
+    .material {
+      justify-content: flex-start;
+      align-items: center;
+      .material_name {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.footer {
+  margin: {
+    left: 1rem;
+    right: 1rem;
+    top: 2rem;
+  }
+  @extend .body_copy;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 10px;
+  color: #555555;
+  a {
+    color: #000;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: {
+      left: 64px;
+      right: 64px;
+      top: 64px;
+    }
+  }
+}

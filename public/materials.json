@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "week": "W1",
+      "materials": [
+        {
+          "type": "reading",
+          "title": "Whiteness studies: the new history of race in america",
+          "link": "http://www.cwu.edu/diversity/sites/cts.cwu.edu.diversity/files/documents/whiteness.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "The Concept of \"Blackness\" In Theories of Race",
+          "link": "https://www.sav.sk/journals/uploads/112415234_Hrabovsky.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Deconstructing White Privilege with Dr. Robin Di Angelo ",
+          "link": "https://vimeo.com/147760743"
+        }
+      ]
+    },
+    {
+      "week": "W2",
+      "materials": [
+        {
+          "type": "reading",
+          "title": "The One-drop Rule Defined ",
+          "link": "https://www.pbs.org/wgbh/pages/frontline/shows/jefferson/mixed/onedrop.html"
+        },
+        {
+          "type": "reading",
+          "title": "Hypodescent: The “One-Drop” Rule",
+          "link": "http://pages.vassar.edu/passingbeyondpassing/hypodescent-the-one-drop-rule/"
+        },
+        {
+          "type": "video",
+          "title": "Rachel Dolezal Breaks Her Silence: 'I Identify As Black' ",
+          "link": "https://www.youtube.com/watch?v=lG9Q2_Hv83k&ab_channel=TODAY"
+        },
+        {
+          "type": "reading",
+          "title": "They look white but say they're black: a tiny town in Ohio wrestles with race ",
+          "link": "https://www.theguardian.com/us-news/2019/jul/25/race-east-jackson-ohio-appalachia-white-black"
+        },
+        {
+          "type": "video",
+          "title": "'You don't have to look black to be black': The complex racial identity of a tiny Ohio town",
+          "link": "https://www.theguardian.com/us-news/2019/jul/25/race-east-jackson-ohio-appalachia-white-black"
+        }
+      ]
+    }
+  ]
+}

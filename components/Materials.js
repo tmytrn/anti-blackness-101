@@ -15,7 +15,7 @@ const Materials = ({ materials }) => {
                     <a className={styles.material_name} href={material.link}>
                       {material.title}
                     </a>
-                    <p className={styles.material_type}>PDF</p>
+                    <p className={styles.material_type}>READ</p>
                   </div>
                 );
               } else {

@@ -49,8 +49,14 @@ export default function Home({ materials }) {
       </main>
 
       <footer className={styles.footer}>
-        This site was made as a class project for{" "}
-        <a href="https://www.peoplematter.one/"> People Matter</a>
+        <div>
+          These links were gathered by Consuela Hendricks from{" "}
+          <a href="https://www.peoplematter.one/"> People Matter.</a>
+        </div>
+        <div>
+          This site was made as a class project for{" "}
+          <a href="https://www.peoplematter.one/"> People Matter</a>
+        </div>
       </footer>
     </div>
   );

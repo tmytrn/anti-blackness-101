@@ -108,11 +108,6 @@ export const data = [
       },
       {
         type: "video",
-        title: "The Rise and Fall of Jim Crow ",
-        link: "https://www.youtube.com/watch?v=Z2snYdfVPuo",
-      },
-      {
-        type: "video",
         title:
           'EDTalks: Dr. Keith Stanley Brooks "Critical Race Theory - Fact vs. Feeling"',
         link: "https://www.youtube.com/watch?v=3yizS9DMENE&ab_channel=AchieveMinneapolis",

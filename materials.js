@@ -58,7 +58,7 @@ export const data = [
       {
         type: "reading",
         title:
-          'Being "Color Blind" Doesn\'\t Make You Not Racist—In Fact, It Can Mean the Opposite ',
+          'Being "Color Blind" Doesn\'\ t Make You Not Racist—In Fact, It Can Mean the Opposite ',
         link: "https://www.oprahmag.com/life/relationships-love/a32824297/color-blind-myth-racism/",
       },
       {
